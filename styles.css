@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #new-todo {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+  
+  }
+  
+  #add-btn {
+    padding: 10px 15px;
+    margin-left: 10px;
+  }
+  
+  #todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #todo-list li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+  }
+  
+  #todo-list li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
+  
+
+/* Basic button styles */
+button {
+  background-color: #007BFF;  /* Primary blue background color */
+  color: #ffffff;  /* White text color */
+  border: none;  /* Remove default border */
+  padding: 10px 15px;  /* Padding for size */
+  font-size: 14px;  /* Font size */
+  border-radius: 5px;  /* Rounded corners */
+  cursor: pointer;  /* Pointer cursor on hover */
+  transition: background-color 0.3s ease;  /* Smooth transition for background color */
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #0056b3;  /* Darker blue on hover */
+}
+
+/* Focus effect */
+button:focus {
+  outline: none;  /* Remove the default outline */
+  box-shadow: 0 0 5px #0056b3;  /* Add a subtle shadow to indicate focus */
+}
+
+/* Active effect (when button is pressed) */
+button:active {
+  background-color: #004080;  /* Even darker blue on click */
+}
+
+/* Disabled state */
+button:disabled {
+  background-color: #cccccc;  /* Gray background */
+  cursor: not-allowed;  /* Change cursor to indicate disabled state */
+}
+
+
+#install-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0; /* Ensure the banner is aligned to the left */
+  width: 100%;
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  margin: 0; /* Remove any default margin */
+}
+
+#install-banner button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#install-banner button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
